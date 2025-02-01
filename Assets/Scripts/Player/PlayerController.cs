@@ -1,14 +1,20 @@
+using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     private float moveInputDirection;
+    private float dashTimeLeft;
+    private float lastDash = -100f;
 
     private bool isFacingRight = true;
     private bool isRun;
     [SerializeField] private bool isGrounded;
     [SerializeField] private bool canJump;
+    private bool isDashing;
+    private bool canMove;
+    private bool canFlip;
 
     [SerializeField] private int amountOfJumpsLeft;
 
@@ -18,12 +24,21 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10.0f;
     public float jumpForce = 15.0f;
     public float groundCheckRadius;
+    public float dashTime;
+    public float dashSpeed;
+    public float dashCoolDown;
 
     public int amountOfJump = 1;
 
     public Transform groundCheck;
 
     public LayerMask whatIsGround;
+
+    private void Awake()
+    {
+        canMove = true;
+        canFlip = true;
+    }
 
     private void Start()
     {
@@ -38,6 +53,7 @@ public class PlayerController : MonoBehaviour
         CheckMoveDirection();
         UpdateAnimations();
         CheckIfCanJump();
+        CheckDash();
     }
 
     private void FixedUpdate()
@@ -79,7 +95,7 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
 
-        if(rigid.linearVelocityX != 0)
+        if(moveInputDirection != 0)
         {
             isRun = true;
         }
@@ -104,6 +120,44 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if(Time.time >= (lastDash + dashCoolDown))
+            {
+                Dash();
+                anim.SetTrigger("isDash");
+            }
+        }
+    }
+
+    private void Dash()
+    {
+        isDashing = true;
+        dashTimeLeft = dashTime;
+        lastDash = Time.time;
+    }
+
+    private void CheckDash()
+    {
+        if (isDashing)
+        {
+            if(dashTimeLeft > 0)
+            {
+                canMove = false;
+                canFlip = false;
+                rigid.linearVelocity = new Vector2(dashSpeed * moveInputDirection, rigid.linearVelocityY);
+                dashTimeLeft -= Time.deltaTime;
+            }
+
+            if(dashTimeLeft <= 0)
+            {
+                isDashing = false;
+                canMove = true;
+                canFlip = true;
+            }
+        }
+
     }
 
     private void Jump()
@@ -117,13 +171,19 @@ public class PlayerController : MonoBehaviour
 
     private void ApplyMove()
     {
-        rigid.linearVelocityX = moveSpeed * moveInputDirection;
+        if (canMove)
+        {
+            rigid.linearVelocityX = moveSpeed * moveInputDirection;
+        }
     }
 
     private void Flip()
     {
-        isFacingRight = !isFacingRight;
-        transform.Rotate(0.0f, 180.0f, 0.0f);
+        if (canFlip)
+        {
+            isFacingRight = !isFacingRight;
+            transform.Rotate(0.0f, 180.0f, 0.0f);
+        }
     }
 
     private void OnDrawGizmos()
