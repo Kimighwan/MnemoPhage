@@ -10,13 +10,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool isGrounded;
     [SerializeField] private bool canJump;
 
+    [SerializeField] private int amountOfJumpsLeft;
+
     private Rigidbody2D rigid;
     private Animator anim;
-
     
     public float moveSpeed = 10.0f;
     public float jumpForce = 15.0f;
     public float groundCheckRadius;
+
+    public int amountOfJump = 1;
 
     public Transform groundCheck;
 
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        amountOfJumpsLeft = amountOfJump;
     }
 
     private void Update()
@@ -44,13 +48,18 @@ public class PlayerController : MonoBehaviour
 
     private void CheckIfCanJump()
     {
-        if(isGrounded && rigid.linearVelocityY <= 0)
+        if(isGrounded && rigid.linearVelocityY <= 0.01f)
         {
-            canJump = true;
+            amountOfJumpsLeft = amountOfJump;
+        }
+
+        if(amountOfJumpsLeft <= 0)
+        {
+            canJump = false;
         }
         else
         {
-            canJump= false;
+            canJump = true;
         }
     }
 
@@ -83,6 +92,8 @@ public class PlayerController : MonoBehaviour
     private void UpdateAnimations()
     {
         anim.SetBool("isRun", isRun);
+        anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("yVelocity", rigid.linearVelocityY);
     }
 
     private void CheckInput()
@@ -100,6 +111,7 @@ public class PlayerController : MonoBehaviour
         if (canJump)
         {
             rigid.linearVelocityY = jumpForce;
+            amountOfJumpsLeft--;
         }
     }
 
