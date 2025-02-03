@@ -1,13 +1,10 @@
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerInputHandler : MonoBehaviour
 {
     //private float dashTimeLeft;
     //private float lastDash = -100f;
 
-    //private bool isFacingRight = true;
     //private bool isRun;
     //private bool isGrounded;
     //private bool canJump;
@@ -20,7 +17,7 @@ public class PlayerController : MonoBehaviour
     //private Rigidbody2D rigid;
     //private Animator anim;
 
-    public float MoveInputDirection { get; private set; }
+    public int MoveInputDirection { get; private set; }
     //public float jumpForce = 15.0f;
     //public float groundCheckRadius;
     //public float dashTime;
@@ -49,6 +46,8 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         CheckInput();
+        Debug.Log(MoveInputDirection);
+
         //CheckMoveDirection();
         //UpdateAnimations();
         //CheckIfCanJump();
@@ -113,7 +112,7 @@ public class PlayerController : MonoBehaviour
 
     private void CheckInput()
     {
-        MoveInputDirection = Input.GetAxisRaw("Horizontal");
+        MoveInputDirection = (int)Input.GetAxisRaw("Horizontal");
 
         //if (Input.GetButtonDown("Jump"))
         //{
@@ -189,6 +188,4 @@ public class PlayerController : MonoBehaviour
     //{
     //    Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     //}
-
 }
-
