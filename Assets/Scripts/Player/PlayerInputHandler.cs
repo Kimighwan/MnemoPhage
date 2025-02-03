@@ -46,7 +46,6 @@ public class PlayerInputHandler : MonoBehaviour
     private void Update()
     {
         CheckInput();
-        Debug.Log(MoveInputDirection);
 
         //CheckMoveDirection();
         //UpdateAnimations();
