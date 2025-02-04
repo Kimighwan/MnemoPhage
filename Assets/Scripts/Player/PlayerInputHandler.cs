@@ -10,16 +10,12 @@ public class PlayerInputHandler : MonoBehaviour
     //private bool canMove;
     //private bool canFlip;
 
-    private float jumpInputStartTime; 
-    [SerializeField]
-    private float inputHoldTime = 0.2f;
-
-
-
     public int MoveInputDirection { get; private set; }
 
     public bool JumpInput { get; private set; }
     public bool JumpInputStop { get; private set; }
+    public bool DashInput { get; private set; }
+    public bool DashInputStop { get; private set; }
     
     public float groundCheckRadius;
 
@@ -27,8 +23,15 @@ public class PlayerInputHandler : MonoBehaviour
     //public float dashSpeed;
     //public float dashCoolDown;
 
-
     public Transform groundCheck;
+
+
+
+    private float jumpInputStartTime;
+    [SerializeField]
+    private float inputHoldTime = 0.2f;
+    private float dashInputStartTime;
+
 
     private void Awake()
     {
@@ -36,28 +39,16 @@ public class PlayerInputHandler : MonoBehaviour
         //canFlip = true;
     }
 
-    private void Start()
-    {
-        //rigid = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
-        //amountOfJumpsLeft = amountOfJump;
-    }
-
     private void Update()
     {
         CheckInput();
         CheckJumpInputHoldTIme();
+        // CheckDashInutHoldTime(); // 8방향 대쉬를 사용한다면 주석 해제
 
         //CheckMoveDirection();
         //UpdateAnimations();
         //CheckIfCanJump();
         //CheckDash();
-    }
-
-    private void FixedUpdate()
-    {
-        //ApplyMove();
-        //CheckSurroundings();
     }
 
     //private void CheckIfCanJump()
@@ -103,12 +94,7 @@ public class PlayerInputHandler : MonoBehaviour
     //    }
     //}
 
-    //private void UpdateAnimations()
-    //{
-    //    anim.SetBool("isRun", isRun);
-    //    anim.SetBool("isGrounded", isGrounded);
-    //    anim.SetFloat("yVelocity", rigid.linearVelocityY);
-    //}
+
 
     private void CheckInput()
     {
@@ -126,17 +112,27 @@ public class PlayerInputHandler : MonoBehaviour
             JumpInputStop = true;
         }
 
-        //if (Input.GetKeyDown(KeyCode.LeftShift))
-        //{
-        //    if(Time.time >= (lastDash + dashCoolDown))
-        //    {
-        //        Dash();
-        //        anim.SetTrigger("isDash");
-        //    }
-        //}
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            //{
+            //    Dash();
+            //    anim.SetTrigger("isDash");
+            //}
+
+            DashInput = true;
+            DashInputStop = false;
+            dashInputStartTime = Time.time;
+        }
+
+        if (Input.GetKeyUp(KeyCode.RightShift))
+        {
+            DashInputStop = true;
+        }
     }
 
     public void UseJumpInput() => JumpInput = false;
+    
+    public void UseDashInput() => DashInput = false;
 
     private void CheckJumpInputHoldTIme()
     {
@@ -146,6 +142,13 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
+    private void CheckDashInutHoldTime()    // 이거는 8방향 대쉬에서 사용됨
+    {
+        if(Time.time >= dashInputStartTime + inputHoldTime)
+        {
+            DashInput = false;
+        }
+    }
 
     //private void Dash()
     //{
@@ -174,23 +177,6 @@ public class PlayerInputHandler : MonoBehaviour
     //        }
     //    }
 
-    //}
-
-    //private void Jump()
-    //{
-    //    if (canJump)
-    //    {
-    //        rigid.linearVelocityY = jumpForce;
-    //        amountOfJumpsLeft--;
-    //    }
-    //}
-
-    //private void ApplyMove()
-    //{
-    //    if (canMove)
-    //    {
-    //        rigid.linearVelocityX = moveSpeed * MoveInputDirection;
-    //    }
     //}
 
     //private void Flip()

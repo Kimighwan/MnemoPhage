@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public PlayerJumpState JumpState { get; private set; }
     public PlayerInAirState InAirState { get; private set; }
     public PlayerLandState LandState { get; private set; }
-
+    public PlayerDashState DashState { get; private set; }
     #endregion
 
     #region Components
@@ -56,6 +56,7 @@ public class Player : MonoBehaviour
         JumpState = new PlayerJumpState(this, StateMachine, playerData, "inAir");
         InAirState = new PlayerInAirState(this, StateMachine, playerData, "inAir");
         LandState = new PlayerLandState(this, StateMachine, playerData, "land");
+        DashState = new PlayerDashState(this, StateMachine, playerData, "dash");    // 8방향 선택은 inAir
     }
 
     private void Start()
