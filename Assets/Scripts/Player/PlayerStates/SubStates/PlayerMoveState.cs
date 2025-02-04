@@ -27,7 +27,7 @@ public class PlayerMoveState : PlayerGroundedState
 
         player.CheckFlip(moveXInput);
 
-        player.SetVelocityX(playerData.moveSpeed * moveXInput);
+        player.SetVelocityX(moveXInput);
 
         if(moveXInput == 0)
         {

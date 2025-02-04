@@ -6,29 +6,29 @@ public class PlayerInputHandler : MonoBehaviour
     //private float lastDash = -100f;
 
     //private bool isRun;
-    //private bool isGrounded;
-    //private bool canJump;
     //private bool isDashing;
     //private bool canMove;
     //private bool canFlip;
 
-    //private int amountOfJumpsLeft;
+    private float jumpInputStartTime; 
+    [SerializeField]
+    private float inputHoldTime = 0.2f;
 
-    //private Rigidbody2D rigid;
-    //private Animator anim;
+
 
     public int MoveInputDirection { get; private set; }
-    //public float jumpForce = 15.0f;
-    //public float groundCheckRadius;
+
+    public bool JumpInput { get; private set; }
+    public bool JumpInputStop { get; private set; }
+    
+    public float groundCheckRadius;
+
     //public float dashTime;
     //public float dashSpeed;
     //public float dashCoolDown;
 
-    //public int amountOfJump = 1;
 
-    //public Transform groundCheck;
-
-    //public LayerMask whatIsGround;
+    public Transform groundCheck;
 
     private void Awake()
     {
@@ -46,6 +46,7 @@ public class PlayerInputHandler : MonoBehaviour
     private void Update()
     {
         CheckInput();
+        CheckJumpInputHoldTIme();
 
         //CheckMoveDirection();
         //UpdateAnimations();
@@ -113,10 +114,17 @@ public class PlayerInputHandler : MonoBehaviour
     {
         MoveInputDirection = (int)Input.GetAxisRaw("Horizontal");
 
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    Jump();
-        //}
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            JumpInput = true;
+            JumpInputStop = false;
+            jumpInputStartTime = Time.time;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            JumpInputStop = true;
+        }
 
         //if (Input.GetKeyDown(KeyCode.LeftShift))
         //{
@@ -127,6 +135,17 @@ public class PlayerInputHandler : MonoBehaviour
         //    }
         //}
     }
+
+    public void UseJumpInput() => JumpInput = false;
+
+    private void CheckJumpInputHoldTIme()
+    {
+        if(Time.time >= jumpInputStartTime + inputHoldTime)
+        {
+            JumpInput = false;
+        }
+    }
+
 
     //private void Dash()
     //{
@@ -183,8 +202,8 @@ public class PlayerInputHandler : MonoBehaviour
     //    }
     //}
 
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-    //}
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
 }

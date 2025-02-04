@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16cbd8ef83ee6be4b8b503762d30be00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundCheck: {fileID: 1956272319}
   playerData: {fileID: 11400000, guid: aaa61b425f70a8749ac9affb7dd1e00d, type: 2}
 --- !u!4 &226894301
 Transform:
@@ -232,7 +233,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2c06c85744d2125459ee038b8458c2fb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -332,6 +333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 451fee3da13a034488221223e19324e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputHoldTime: 0.2
+  groundCheckRadius: 0.1
+  groundCheck: {fileID: 1956272319}
 --- !u!1 &245998497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,7 +4731,7 @@ Transform:
   m_GameObject: {fileID: 1956272318}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.237, y: -0.645, z: 0}
+  m_LocalPosition: {x: -0.254, y: -0.645, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
