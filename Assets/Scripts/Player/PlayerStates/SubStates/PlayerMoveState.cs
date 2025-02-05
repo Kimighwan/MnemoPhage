@@ -29,7 +29,7 @@ public class PlayerMoveState : PlayerGroundedState
 
         player.SetVelocityX(moveXInput);
 
-        if(moveXInput == 0)
+        if(moveXInput == 0 && !isExitingState)
         {
             player.StateMachine.ChangeState(player.IdleState);
         }

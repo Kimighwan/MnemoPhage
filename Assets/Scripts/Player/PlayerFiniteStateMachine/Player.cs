@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
         JumpState = new PlayerJumpState(this, StateMachine, playerData, "inAir");
         InAirState = new PlayerInAirState(this, StateMachine, playerData, "inAir");
         LandState = new PlayerLandState(this, StateMachine, playerData, "land");
-        DashState = new PlayerDashState(this, StateMachine, playerData, "dash");    // 8방향 선택은 inAir
+        DashState = new PlayerDashState(this, StateMachine, playerData, "dash");
     }
 
     private void Start()

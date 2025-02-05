@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerInputHandler : MonoBehaviour
 {
@@ -18,10 +19,6 @@ public class PlayerInputHandler : MonoBehaviour
     public bool DashInputStop { get; private set; }
     
     public float groundCheckRadius;
-
-    //public float dashTime;
-    //public float dashSpeed;
-    //public float dashCoolDown;
 
     public Transform groundCheck;
 
@@ -43,58 +40,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         CheckInput();
         CheckJumpInputHoldTIme();
-        // CheckDashInutHoldTime(); // 8방향 대쉬를 사용한다면 주석 해제
-
-        //CheckMoveDirection();
-        //UpdateAnimations();
-        //CheckIfCanJump();
-        //CheckDash();
     }
-
-    //private void CheckIfCanJump()
-    //{
-    //    if(isGrounded && rigid.linearVelocityY <= 0.01f)
-    //    {
-    //        amountOfJumpsLeft = amountOfJump;
-    //    }
-
-    //    if(amountOfJumpsLeft <= 0)
-    //    {
-    //        canJump = false;
-    //    }
-    //    else
-    //    {
-    //        canJump = true;
-    //    }
-    //}
-
-    //private void CheckSurroundings()
-    //{
-    //    isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-    //}
-
-    //private void CheckMoveDirection()
-    //{
-    //    if(isFacingRight && MoveInputDirection < 0) 
-    //    {
-    //        Flip();
-    //    }
-    //    else if(!isFacingRight && MoveInputDirection > 0)
-    //    {
-    //        Flip();
-    //    }
-
-    //    if(MoveInputDirection != 0)
-    //    {
-    //        isRun = true;
-    //    }
-    //    else
-    //    {
-    //        isRun = false;
-    //    }
-    //}
-
-
 
     private void CheckInput()
     {
@@ -114,11 +60,6 @@ public class PlayerInputHandler : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            //{
-            //    Dash();
-            //    anim.SetTrigger("isDash");
-            //}
-
             DashInput = true;
             DashInputStop = false;
             dashInputStartTime = Time.time;
@@ -141,52 +82,6 @@ public class PlayerInputHandler : MonoBehaviour
             JumpInput = false;
         }
     }
-
-    private void CheckDashInutHoldTime()    // 이거는 8방향 대쉬에서 사용됨
-    {
-        if(Time.time >= dashInputStartTime + inputHoldTime)
-        {
-            DashInput = false;
-        }
-    }
-
-    //private void Dash()
-    //{
-    //    isDashing = true;
-    //    dashTimeLeft = dashTime;
-    //    lastDash = Time.time;
-    //}
-
-    //private void CheckDash()
-    //{
-    //    if (isDashing)
-    //    {
-    //        if(dashTimeLeft > 0)
-    //        {
-    //            canMove = false;
-    //            canFlip = false;
-    //            rigid.linearVelocity = new Vector2(dashSpeed * MoveInputDirection, rigid.linearVelocityY);
-    //            dashTimeLeft -= Time.deltaTime;
-    //        }
-
-    //        if(dashTimeLeft <= 0)
-    //        {
-    //            isDashing = false;
-    //            canMove = true;
-    //            canFlip = true;
-    //        }
-    //    }
-
-    //}
-
-    //private void Flip()
-    //{
-    //    if (canFlip)
-    //    {
-    //        isFacingRight = !isFacingRight;
-    //        transform.Rotate(0.0f, 180.0f, 0.0f);
-    //    }
-    //}
 
     private void OnDrawGizmos()
     {

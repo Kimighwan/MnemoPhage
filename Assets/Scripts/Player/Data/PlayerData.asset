@@ -16,6 +16,11 @@ MonoBehaviour:
   jumpForce: 15
   amountOfJunp: 1
   coyoteTime: 0.2
+  varialbleJumpHeightMultiplier: 0.5
+  dashCoolDown: 1.5
+  dashTime: 0.2
+  dashVelocity: 10
+  drag: 10
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
