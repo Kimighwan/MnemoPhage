@@ -149,6 +149,7 @@ public class PlayerController : MonoBehaviour
         {
             if (dashTimeLeft > 0)
             {
+                rigid.gravityScale = 0f;
                 canMove = false;
                 canFlip = false;
                 rigid.linearVelocity = new Vector2(dashSpeed * MoveInputDirection, rigid.linearVelocityY);
@@ -157,6 +158,7 @@ public class PlayerController : MonoBehaviour
 
             if (dashTimeLeft <= 0)
             {
+                rigid.gravityScale = 4f;
                 isDashing = false;
                 canMove = true;
                 canFlip = true;
