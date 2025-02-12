@@ -7,11 +7,11 @@
 - **🛠 Engine :** Unity
 <br>
 
-**Introduction**
+&nbsp;&nbsp;&nbsp;&nbsp; **Introduction**
 <br>
 
-In a world where painful memories discarded by people accumulate, these forgotten remnants gradually transform into monstrous entities that pollute the world. 
-The protagonist belongs to a bloodline destined to absorb these memories and purify the world.</p>
+&nbsp;&nbsp;&nbsp;&nbsp; In a world where painful memories discarded by people accumulate, these forgotten remnants gradually transform into monstrous entities that pollute the world.
+&nbsp;&nbsp;&nbsp;&nbsp; The protagonist belongs to a bloodline destined to absorb these memories and purify the world.</p>
 <br>
 
 ## Collaboration Tool
