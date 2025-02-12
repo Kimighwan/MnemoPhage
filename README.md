@@ -25,7 +25,7 @@
 |------|------|--------|
 | **김민준** | - | [Gmail](https://github.com/username1) |
 | **김익환** | 바보 | [GitHub](https://github.com/username2) |
-| **장지원** | - | [![Discord](https://img.shields.io/badge/-333333.svg?&style=social&logo=discord&logoColor=D9E6F2&label=)](https://www.discord.com/users/826455342350073887)  |
+| **장지원** | - | [![Discord](https://img.shields.io/badge/-333333.svg?&style=for-the-badge&logo=discord&logoColor=D9E6F2&label=)](https://www.discord.com/users/826455342350073887)  |
 | **이희서** | - | [GitHub](https://github.com/username5) |
 | **김유진** | -  | [GitHub](https://github.com/username3) |
 | **이아영** | -  | [GitHub](https://github.com/username4) |
