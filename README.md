@@ -6,11 +6,7 @@
 
 ## Overview
 - **🎮 Genre :** 2D Platformer, Action-Adventure
-<br>
-
 - **💻 Platform :** PC
-<br>
-
 - **🛠 Engine :** Unity
 <br>
 <br>
