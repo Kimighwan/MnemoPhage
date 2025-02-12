@@ -18,8 +18,9 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 <br>
 
 ## Collaboration Tool
+- **🎧 Discord** – Main communication hub for team discussions, quick updates, and voice meetings.  
 - **📝 Notion** – Project documentation, task management, and planning.  
-- **🎨 Figma** – UI/UX design, wireframing, and prototyping.  
+- **🎨 Figma** – Used for uploading references and work-in-progress designs.  
 - **🐙 GitHub** – Version control, issue tracking, and code collaboration.
 
 <br>
