@@ -23,9 +23,9 @@
 
 | Name | Role | Contact |
 |------|------|--------|
-| **김민준** | ! | [Gmail](https://github.com/username1) |
+| **김민준** | - | [Gmail](https://github.com/username1) |
 | **김익환** | 바보 | [GitHub](https://github.com/username2) |
-| **장지원** | Planner & Artist 📜🎨 | [GitHub](https://github.com/aspyn04) [Discord](https://www.discord.com/users/826455342350073887) |
-| **이희서** | Planner & Artist 📜🎨 | [GitHub](https://github.com/username5) |
-| **김유진** | 🎨 Artist  | [GitHub](https://github.com/username3) |
-| **이아영** | 🖌️ Artist  | [GitHub](https://github.com/username4) |
+| **장지원** | - | [GitHub](https://github.com/aspyn04) [Discord](https://www.discord.com/users/826455342350073887) |
+| **이희서** | - | [GitHub](https://github.com/username5) |
+| **김유진** | -  | [GitHub](https://github.com/username3) |
+| **이아영** | -  | [GitHub](https://github.com/username4) |
