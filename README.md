@@ -12,10 +12,10 @@
 <br>
 
 ## Collaboration Tool
-- **🎧 Discord** – Main communication hub for team discussions, quick updates, and voice meetings.  
-- **📝 Notion** – Project documentation, task management, and planning.  
-- **🎨 Figma** – Used for uploading references and work-in-progress designs.  
-- **🐙 GitHub** – Version control, issue tracking, and code collaboration.
+- **🎧 Discord** 
+- **📝 Notion** 
+- **🎨 Figma**
+- **🐙 GitHub** 
 
 <br>
 
