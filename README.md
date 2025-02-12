@@ -4,7 +4,7 @@
 # MnemoPhage
 <br>
 
-## 📌 Overview
+## Overview
 Genre : 2D Platformer, Action-Adventure
 <br>
 
@@ -20,7 +20,7 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 
 <br>
 
-## 📌 Collaboration Tool
+## Collaboration Tool
 [![Figma](https://img.shields.io/badge/figma-333333.svg?&style=for-the-badge&logo=figma&logoColor=D9E6F2)](https://www.figma.com/files/team/1450051217210920038/project/313805825/Team-project?fuid=1267508671393151508)
 [![Notion](https://img.shields.io/badge/notion-333333.svg?&style=for-the-badge&logo=notion&logoColor=D9E6F2)](https://www.notion.so/invite/ea71cabe61ca308f47965feb24b4e3fb42866ba7)
 [![Github](https://img.shields.io/badge/github-333333.svg?&style=for-the-badge&logo=github&logoColor=D9E6F2)](https://github.com/Kimighwan/MnemoPhage)
@@ -28,7 +28,7 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 
 <br>
 
-## 📌 Developer
+## Developer
 김민준 - 기획 <br>
 김익환 - 개발 <br>
 김유진 - 아트 <br>
