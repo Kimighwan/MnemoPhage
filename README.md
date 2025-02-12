@@ -20,13 +20,13 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 
 <br>
 
-## Figma Link
+## Figma
 
 [Figma](https://www.figma.com/files/team/1450051217210920038/project/313805825/Team-project?fuid=1267508671393151508)
 
 <br>
 
-## Notion Link
+## Notion
 
 [Notion](https://www.notion.so/invite/ea71cabe61ca308f47965feb24b4e3fb42866ba7)
 
