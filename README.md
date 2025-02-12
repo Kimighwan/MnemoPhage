@@ -1,7 +1,7 @@
 <!-- 프로젝트 개요, 팀원 및 역할, 작업 과정 -->
 
 <!-- 이름 -->
-## MnemoPhage
+# MnemoPhage
 <br>
 
 ## Overview
