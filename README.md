@@ -24,7 +24,7 @@
 | **Name** | **Role** | **Contact** |
 |----------|----------|-----------|
 | **김민준** | **👑 Lead Game Designer** | [Gmail](https://github.com/username1) |
-| **김익환** | **🖥️ Lead Game Developer** | <img src="https://img.shields.io/badge/--333333.svg?&style=for-the-badge&logo=github&logoColor=D9E6F2&logoWidth=40&label=" style="vertical-align: middle;"> |
+| **김익환** | **🖥️ Lead Game Developer** | <img src="https://img.shields.io/badge/--333333.svg?&style=for-the-badge&logo=github&logoColor=D9E6F2&logoWidth=40&label=" style="vertical-align: middle; padding-top: 5px; margin-bottom: -5px;"> |
 | **장지원** | **🖌️ Art Director & 🎮 Associate Game Developer** | <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aspyn.j04@gmail.com"><img src="https://img.shields.io/badge/gmail-333333.svg?&style=for-the-badge&logo=gmail&logoColor=D9E6F2" style="vertical-align: middle;"></a> <a href="https://www.discord.com/users/826455342350073887"><img src="https://img.shields.io/badge/discord-333333.svg?&style=for-the-badge&logo=discord&logoColor=D9E6F2" style="vertical-align: middle;"></a> |
 | **이희서** | **✍️ UI/UX Designer & 💡 Associate Game Designer** | [GitHub](https://github.com/username5) |
 | **이아영** | **🎨 Lead Artist** | [GitHub](https://github.com/username4) |
