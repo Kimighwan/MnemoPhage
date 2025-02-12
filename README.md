@@ -21,7 +21,7 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 <br>
 
 ## Figma
-[![Figma](https://img.shields.io/badge/figma-333333.svg?&style=for-the-badge&logo=figma&logoColor=D9E6F2)]((https://www.figma.com/files/team/1450051217210920038/project/313805825/Team-project?fuid=1267508671393151508))
+[![Figma](https://img.shields.io/badge/figma-333333.svg?&style=for-the-badge&logo=figma&logoColor=D9E6F2)](https://www.figma.com/files/team/1450051217210920038/project/313805825/Team-project?fuid=1267508671393151508)
 
 <br>
 
