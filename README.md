@@ -6,9 +6,12 @@
 
 ## Overview
 Genre : 2D Platformer, Action-Adventure
-Platform : PC
-Engine : Unity
+<br>
 
+Platform : PC
+<br>
+
+Engine : Unity
 <br>
 
 Introduction  
