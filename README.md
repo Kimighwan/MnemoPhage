@@ -12,7 +12,7 @@
 <br>
 
 ## Collaboration Tool
-- **🎧 Discord** 
+- **🎧 Discord** ![Discord](https://img.shields.io/badge/Discord-333333.svg?&style=for-the-badge&logo=discord&logoColor=D9E6F2)
 - **📝 Notion** 
 - **🎨 Figma**
 - **🐙 GitHub** 
