@@ -12,6 +12,7 @@
 
 In a world where painful memories discarded by people accumulate, these forgotten remnants gradually transform into monstrous entities that pollute the world. 
 The protagonist belongs to a bloodline destined to absorb these memories and purify the world.</p>
+<br>
 
 ## Collaboration Tool
 - **🎧 Discord** – Main communication hub for team discussions, quick updates, and voice meetings.  
