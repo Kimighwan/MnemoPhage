@@ -26,9 +26,9 @@ The protagonist belongs to a bloodline destined to absorb these memories and pur
 <br>
 
 ## Developer
-김민준 - 기획 <br>
-김익환 - 개발 <br>
-김유진 - 아트 <br>
-이아영 - 아트 <br>
-이희서 - 기획 및 아트 <br>
-장지원 - 기획 및 아트 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;김민준 - 기획 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;김익환 - 개발 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;김유진 - 아트 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;이아영 - 아트 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;이희서 - 기획 및 아트 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;장지원 - 기획 및 아트 <br>
