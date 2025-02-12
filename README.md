@@ -19,10 +19,13 @@
 
 <br>
 
-## Developer
-&nbsp;&nbsp;&nbsp;&nbsp;김민준 - 기획 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;김익환 - 개발 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;김유진 - 아트 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;이아영 - 아트 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;이희서 - 기획 및 아트 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;장지원 - 기획 및 아트 <br>
+## Collaborators  
+
+| Name | Role | Contact |
+|------|------|--------|
+| **김민준** | Game Designer 🎮 | [GitHub](https://github.com/username1) |
+| **김익환** | Developer 💻 | [GitHub](https://github.com/username2) |
+| **김유진** | Artist 🎨 | [GitHub](https://github.com/username3) |
+| **이아영** | Artist 🖌️ | [GitHub](https://github.com/username4) |
+| **이희서** | Planner & Artist 📜🎨 | [GitHub](https://github.com/username5) |
+| **장지원** | Planner & Artist 📜🎨 | [GitHub](https://github.com/username6) |
