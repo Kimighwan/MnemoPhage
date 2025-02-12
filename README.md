@@ -5,26 +5,25 @@
 <br>
 
 ## Overview
-Genre : 2D Platformer, Action-Adventure
+**🎮 Genre :** 2D Platformer, Action-Adventure
 <br>
 
-Platform : PC
+**💻 Platform :** PC
 <br>
 
-Engine : Unity
+**🛠 Engine :** Unity
 <br>
 
-Introduction  
+**Introduction**
 In a world where painful memories discarded by people accumulate, these forgotten remnants gradually transform into monstrous entities that pollute the world. 
 The protagonist belongs to a bloodline destined to absorb these memories and purify the world.
 
 <br>
 
 ## Collaboration Tool
-[![Figma](https://img.shields.io/badge/figma-333333.svg?&style=for-the-badge&logo=figma&logoColor=D9E6F2)](https://www.figma.com/files/team/1450051217210920038/project/313805825/Team-project?fuid=1267508671393151508)
-[![Notion](https://img.shields.io/badge/notion-333333.svg?&style=for-the-badge&logo=notion&logoColor=D9E6F2)](https://www.notion.so/invite/ea71cabe61ca308f47965feb24b4e3fb42866ba7)
-[![Github](https://img.shields.io/badge/github-333333.svg?&style=for-the-badge&logo=github&logoColor=D9E6F2)](https://github.com/Kimighwan/MnemoPhage)
-![Discord](https://img.shields.io/badge/discord-333333.svg?&style=for-the-badge&logo=discord&logoColor=D9E6F2)
+- **📝 Notion** – Project documentation, task management, and planning.  
+- **🎨 Figma** – UI/UX design, wireframing, and prototyping.  
+- **🐙 GitHub** – Version control, issue tracking, and code collaboration.
 
 <br>
 
