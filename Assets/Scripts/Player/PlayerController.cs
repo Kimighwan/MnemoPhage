@@ -134,6 +134,11 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger("isDash");
             }
         }
+
+        if (Input.GetButtonDown("Attack"))
+        {
+            Debug.Log("Attack!");
+        }
     }
 
     private void Dash()
