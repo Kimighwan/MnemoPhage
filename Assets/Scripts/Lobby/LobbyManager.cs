@@ -21,6 +21,7 @@ public class LobbyManager : SingletonBehaviour<LobbyManager>
             return;
         }
 
+        // 씬 시작 애니메이션 순차적으로 나오게 
         // AudioManager.Instance.PlayBGM(BGM.lobby);
     }
 
@@ -40,5 +41,10 @@ public class LobbyManager : SingletonBehaviour<LobbyManager>
     public void ExitGame()
     {
         // 종료할꺼냐 팝업 창 띄우기
+    }
+
+    public void Credit()
+    {
+        // 크레딧 창
     }
 }
