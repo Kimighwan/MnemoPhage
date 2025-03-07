@@ -21,4 +21,11 @@ public class LobbyUIController : MonoBehaviour
         // AudioManager.Instance.StopBGM();
         LobbyManager.Instance.ExitGame();
     }
+    public void OnClickCreditBtn()
+    {
+        // AudioManager.Instance.PlaySFX(SFX.ui_button_click);
+        // AudioManager.Instance.StopBGM();
+        LobbyManager.Instance.Credit();
+    }
+
 }
