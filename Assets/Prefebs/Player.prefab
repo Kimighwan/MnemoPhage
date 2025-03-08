@@ -60,6 +60,8 @@ GameObject:
   - component: {fileID: 4641765180225687728}
   - component: {fileID: 7478875871024975841}
   - component: {fileID: 5599650193860708792}
+  - component: {fileID: 4624524137585216409}
+  - component: {fileID: 4808427552984283200}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -258,6 +260,33 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &4624524137585216409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834317811193058154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae583e8f59cf9a4b85baf68db67db66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combatEnabled: 0
+--- !u!114 &4808427552984283200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834317811193058154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d88e780db54b44298107cc65887eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon:
+  - {fileID: 2063872344037115697}
 --- !u!1 &3104872462531787742
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    protected Animator baseAnimator;
-    protected Animator weaponAnimator;
+    [SerializeField] protected Animator playerAnimator;
+    [SerializeField] protected Animator baseAnimator;
+    [SerializeField] protected Animator weaponAnimator;
 
     protected virtual void Start()
     {
+        playerAnimator = transform.parent.parent.GetComponent<Animator>();
         baseAnimator = transform.Find("Base").GetComponent<Animator>();
         weaponAnimator = transform.Find("Weapon").GetComponent<Animator>();
 
@@ -17,12 +19,14 @@ public class Weapon : MonoBehaviour
     {
         gameObject.SetActive(true);
 
-        baseAnimator .SetBool("attack", true);
+        playerAnimator.SetBool("attack", true);
+        baseAnimator.SetBool("attack", true);
         weaponAnimator.SetBool("attack", true);
     }
 
     public virtual void ExitWeapon()
     {
+        playerAnimator.SetBool("attack", false);
         baseAnimator.SetBool("attack", false);
         weaponAnimator.SetBool("attack", false);
 

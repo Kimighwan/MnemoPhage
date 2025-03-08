@@ -35,13 +35,6 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask whatIsGround;
 
-    [Header("Combat System")]
-    [SerializeField] private bool combatEnabled;
-    private bool getInput;
-
-    private float lastInputTime;
-
-
     private void Awake()
     {
         canMove = true;
@@ -62,7 +55,6 @@ public class PlayerController : MonoBehaviour
         UpdateAnimations();
         CheckIfCanJump();
         CheckDash();
-        CheckCombatInput();
     }
 
     private void FixedUpdate()
@@ -142,14 +134,6 @@ public class PlayerController : MonoBehaviour
                 Dash();
                 anim.SetTrigger("isDash");
             }
-        }
-    }
-
-    private void CheckCombatInput() // 공격 입력 체크
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            Debug.Log("Z키 입력");
         }
     }
 
