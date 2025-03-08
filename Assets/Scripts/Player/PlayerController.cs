@@ -149,7 +149,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            return;
+            Debug.Log("Z키 입력");
         }
     }
 
