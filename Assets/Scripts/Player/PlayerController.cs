@@ -34,9 +34,12 @@ public class PlayerController : MonoBehaviour
 
     public Transform groundCheck;
     public LayerMask whatIsGround;
+    public Core Core {  get; private set; }
 
     private void Awake()
     {
+        Core = GetComponentInChildren<Core>();
+
         canMove = true;
         canFlip = true;
         moveSpeed = 10.0f;
