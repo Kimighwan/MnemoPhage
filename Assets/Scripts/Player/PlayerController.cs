@@ -141,6 +141,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void CheckCombatInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            return;
+        }
+    }
+
     private void Dash()
     {
         isDashing = true;

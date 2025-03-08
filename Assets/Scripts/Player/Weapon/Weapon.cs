@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected Animator baseAnimator;
+    protected Animator weaponAnimator;
+
+    protected virtual void Start()
     {
-        
+        baseAnimator = transform.Find("Base").GetComponent<Animator>();
+        weaponAnimator = transform.Find("Weapon").GetComponent<Animator>();
+
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void EnterWeapon()
     {
-        
+        gameObject.SetActive(true);
+
+        baseAnimator .SetBool("attack", true);
+        weaponAnimator.SetBool("attack", true);
+    }
+
+    public virtual void ExitWeapon()
+    {
+        baseAnimator.SetBool("attack", false);
+        weaponAnimator.SetBool("attack", false);
+
+        gameObject.SetActive(false);
     }
 }
