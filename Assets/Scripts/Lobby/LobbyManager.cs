@@ -4,18 +4,19 @@ public class LobbyManager : SingletonBehaviour<LobbyManager>
 {
     public LobbyUIController lobbyUIController;
 
-    private bool isLoadingInGame;
+    private bool isLoadingInGame;   // 로딩 중인가?
+
     protected override void Init()
     {
-        isDestoryOnLoad = true;
-        isLoadingInGame = false;
+        isDestoryOnLoad = true;     // 씬 전환시 삭제
+        isLoadingInGame = false;    // 로딩 중이 아니다
 
         base.Init();
     }
 
     private void Start()
     {
-        if (!lobbyUIController)
+        if (!lobbyUIController) // 버그 예외처리
         {
             Debug.Log("LobbyUIController does not exist.");
             return;
@@ -27,7 +28,7 @@ public class LobbyManager : SingletonBehaviour<LobbyManager>
 
     public void StartGame()
     {
-        if (isLoadingInGame) return;
+        if (isLoadingInGame) return;    // 이미 로딩 중이면 실행 X
 
         isLoadingInGame = true;
 

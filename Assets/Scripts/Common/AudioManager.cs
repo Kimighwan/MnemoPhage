@@ -18,10 +18,10 @@ public class AudioManager : SingletonBehaviour<AudioManager>
     public Transform BGMTrs;
     public Transform SFXTrs;
 
-    private const string AUDIO_PATH = "Audio";
+    private const string AUDIO_PATH = "Audio";  // 여기에 오디오 파일 넣기
 
     private Dictionary<BGM, AudioSource> m_BGMPlayer = new Dictionary<BGM, AudioSource>();
-    private AudioSource m_CurrBGMSource;
+    private AudioSource m_CurrBGMSource;    // 현재 재생중인 BGM
 
     private Dictionary<SFX, AudioSource> m_SFXPlayer = new Dictionary<SFX, AudioSource>();
 
@@ -33,6 +33,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         LoadSFXPlayer();
     }
 
+    // BGM 오디오 파일 가져오기
     private void LoadBGMPlayer()
     {
         for(int i = 0; i < (int)BGM.COUNT; i++)
@@ -59,6 +60,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         }
     }
 
+    // SFX 오디오 파일 가져오기
     private void LoadSFXPlayer()
     {
         for(int i = 0; i < (int)SFX.COUNT; i++)
@@ -82,6 +84,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         }
     }
 
+    // BGM 실행
     public void PlayBGM(BGM bgm)
     {
         if (!m_BGMPlayer.ContainsKey(bgm))
@@ -100,21 +103,25 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         m_CurrBGMSource.Play();
     }
 
+    // BGM 일시정지
     public void PauseBGM()
     {
         if(m_CurrBGMSource) m_CurrBGMSource.Pause();
     }
 
+    // BGM 일시정지 해제
     public void ResumeBGM()
     {
         if (m_CurrBGMSource) m_CurrBGMSource.UnPause();
     }
 
+    // BGM 종료
     public void StopBGM()
     {
         if (m_CurrBGMSource) m_CurrBGMSource.Stop();
     }
 
+    // 효과음 재생
     public void PlaySFX(SFX sfx)
     {
         if (!m_SFXPlayer.ContainsKey(sfx))
@@ -126,6 +133,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         m_SFXPlayer[sfx].Play();
     }
 
+    // 음소거
     public void Mute()
     {
         foreach(var audioSourceItem in m_BGMPlayer)
@@ -139,6 +147,7 @@ public class AudioManager : SingletonBehaviour<AudioManager>
         }
     }
 
+    // 음소거 해제
     public void UnMute()
     {
         foreach (var audioSourceItem in m_BGMPlayer)

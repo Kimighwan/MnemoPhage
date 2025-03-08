@@ -35,20 +35,21 @@ public class TitleManager : MonoBehaviour
         teamLogoAnimation.gameObject.SetActive(false);
         descImage.SetActive(true);
 
+        // 로비 씬 로드
         asyncOperation = SceneLoader.Instance.LoadSceneAsync(SceneType.Lobby);
 
-        if(asyncOperation == null)
+        if(asyncOperation == null) // 버그 예외 처리
         {
             yield break;
         }
 
-        asyncOperation.allowSceneActivation = false;
+        asyncOperation.allowSceneActivation = false;        // 로딩 완료시 화면 전환 끄기
 
-        while (!asyncOperation.isDone)  // 로딩이 진행 중일 때
+        while (!asyncOperation.isDone)                      // 로딩이 진행 중일 때
         {
-            if (asyncOperation.progress >= 0.9f)
+            if (asyncOperation.progress >= 0.9f)            // 로딩 90% 이상 완료
             {
-                asyncOperation.allowSceneActivation = true;
+                asyncOperation.allowSceneActivation = true; // 로딩 완료시 화면 전환 켜기
                 yield break;
             }
 

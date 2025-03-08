@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class BaseUIData
 {
-    public Action OnShow;
-    public Action OnClose;
+    public Action OnShow;   // UI 열 때 실행할 행위
+    public Action OnClose;  // UI 닫을 때 실행할 행위
 }
 
 public class BaseUI : MonoBehaviour

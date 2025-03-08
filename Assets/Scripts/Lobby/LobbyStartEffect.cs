@@ -3,10 +3,11 @@ using UnityEngine.Video;
 
 public class LobbyStartEffect : MonoBehaviour
 {
-    //UI ¿ä¼ÒµéÀÌ¶û ¿µ»ó º¯¼ö·Î ¼³Á¤
-    // ÇÏ³ª¾¿ È¿°ú ÁÖ±â
-    // ÇÔ¼ö·Î ¸¸µé±â
-    // LobbyManager¿¡¼­ ÇØ´ç ÇÔ¼ö ºÒ·¯¿À±â 
+    // UI ìš”ì†Œë“¤ì´ë‘ ì˜ìƒ ë³€ìˆ˜ë¡œ ì„¤ì •
+    // í•˜ë‚˜ì”© íš¨ê³¼ ì£¼ê¸°
+    // í•¨ìˆ˜ë¡œ ë§Œë“¤ê¸°
+    // LobbyManagerì—ì„œ í•´ë‹¹ í•¨ìˆ˜ ë¶ˆëŸ¬ì˜¤ê¸° 
+    
 
     public GameObject title;
     public GameObject start;

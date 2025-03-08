@@ -9,12 +9,15 @@ public class UIManager : SingletonBehaviour<UIManager>
     public Transform uICanvasTrs;   // 캔버스 위치
     public Transform closedUITrs;   // 비활성 UI 위치
 
-    public Image fadeImage;
+    public Image fadeImage;         // fade in/out 사용할 이미지
 
 
     private BaseUI frontUI;         // 최상단 UI
     
+    // 열린 UI
     private Dictionary<System.Type, GameObject> openUIPool = new Dictionary<System.Type, GameObject>();
+
+    // 닫힌 UI 
     private Dictionary<System.Type, GameObject> closedUIPool = new Dictionary<System.Type, GameObject>();
 
 
@@ -51,7 +54,7 @@ public class UIManager : SingletonBehaviour<UIManager>
         return ui;
     }
 
-    public void OpenUI<T>(BaseUIData uIData)
+    public void OpenUI<T>(BaseUIData uIData)    // UI 열기
     {
         System.Type uiType = typeof(T);
 
@@ -73,7 +76,7 @@ public class UIManager : SingletonBehaviour<UIManager>
         openUIPool[uiType] = ui.gameObject;
     }
 
-    public void CloseUI(BaseUI ui)
+    public void CloseUI(BaseUI ui)  // UI 닫기
     {
         System.Type uiType = ui.GetType();
 
@@ -122,8 +125,17 @@ public class UIManager : SingletonBehaviour<UIManager>
         }
     }
 
+    // Fade In/Out 기능
     #region Fade
 
+    
+    /// <param name="color"></param>                색상 지정
+    /// <param name="startAlpha"></param>           fade 진행시 시작 Alpha 값
+    /// <param name="endAlpha"></param>             fade 진행시 종료 Alpha 값
+    /// <param name="duration"></param>             fade 진행 시간
+    /// <param name="startDelay"></param>           fade 시작 전 딜레이
+    /// <param name="deActivateOnFinish"></param>   fade 종료후 fade 이미지 활성/비활성화
+    /// <param name="onFinish"></param>             끝났을 때 작동할 동작들
     public void Fade(Color color, float startAlpha, float endAlpha, float duration, float startDelay, bool deActivateOnFinish, Action onFinish = null)
     {
         StartCoroutine(FadeCo(color, startAlpha, endAlpha, duration, startDelay, deActivateOnFinish, onFinish));
