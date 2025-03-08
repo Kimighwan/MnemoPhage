@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1109 &-8968446159525779698
+--- !u!1109 &-6982173947722682476
 AnimatorTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13,9 +13,9 @@ AnimatorTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: attackCounter
-    m_EventTreshold: 2
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 458162502756989038}
+  m_DstState: {fileID: -336816863000411253}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -83,7 +83,7 @@ AnimatorTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: attackCounter
-    m_EventTreshold: 0
+    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1117358700056231774}
   m_Solo: 0
@@ -218,7 +218,7 @@ AnimatorTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: attackCounter
-    m_EventTreshold: 1
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7336071575537738476}
   m_Solo: 0
@@ -286,29 +286,29 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -336816863000411253}
-    m_Position: {x: 260, y: 110, z: 0}
+    m_Position: {x: 260, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1117358700056231774}
-    m_Position: {x: 260, y: 170, z: 0}
+    m_Position: {x: 260, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7336071575537738476}
-    m_Position: {x: 260, y: 230, z: 0}
+    m_Position: {x: 260, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 458162502756989038}
-    m_Position: {x: 260, y: 290, z: 0}
+    m_Position: {x: 260, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
   - {fileID: -2872733625335091975}
   - {fileID: 2360919363186399887}
-  - {fileID: -8968446159525779698}
+  - {fileID: -6982173947722682476}
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 510, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -336816863000411253}
+  m_DefaultState: {fileID: 458162502756989038}
 --- !u!1102 &7336071575537738476
 AnimatorState:
   serializedVersion: 6

@@ -31,7 +31,7 @@ public class SingletonBehaviour<T> : MonoBehaviour where T : SingletonBehaviour<
         }
     }
 
-    protected virtual void OnDestroy()
+    protected virtual void OnDestroy()  // 클래스 파괴시 작동하는 유니티 생명 주기 함수
     {
         Dispose();
     }
