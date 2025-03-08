@@ -3,27 +3,33 @@ using UnityEngine;
 public class PlayerCombatController : MonoBehaviour
 {
     private PlayerController playerController;
-
-    [Header("Combat System")]
-    [SerializeField] private bool combatEnabled;
-    private bool getInput;
-
-    private float lastInputTime;
-
     private Weapon weapon;
     private TestWeaponInventory testWeaponInventory;
+
+    private bool combatEnabled;
+    private bool getInput;
+    private bool setVelocity;       // 이동 속도를 변경할 것인가?
+
+    private float lastInputTime;
+    private float velocityToSet;    // 공격시 설정할 이동 속도
+
+    
+    public float orignalVelocity {  get; private set; } // 기존 이동 속도
+
 
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
         testWeaponInventory = GetComponent<TestWeaponInventory>();
         SetWeapon(testWeaponInventory.weapon[0]);
+        setVelocity = false;
     }
 
 
     private void Update()
     {
         CheckCombatInput();
+        SetPlayerAttackMoveSpeed();
     }
 
     private void CheckCombatInput() // 공격 입력 체크
@@ -32,6 +38,7 @@ public class PlayerCombatController : MonoBehaviour
         {
             Debug.Log("일반 공격");
             weapon.EnterWeapon();
+            weapon.AnimationStartMovementTrigger();
         }
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -45,8 +52,26 @@ public class PlayerCombatController : MonoBehaviour
         }
     }
 
-    public void SetWeapon(Weapon weapon)    // Setting Weapon 
+    public void SetWeapon(Weapon weapon)    // 무기 설정
     {
         this.weapon = weapon;
+    }
+
+    public void SetPlayerVelocity(float velocity)   // 외부에서 플레이어 이동 속도 조절
+    {
+        orignalVelocity = playerController.moveSpeed;
+
+        playerController.SetVelocityX(velocity);
+
+        velocityToSet = velocity;
+        setVelocity = true;
+    }
+
+    private void SetPlayerAttackMoveSpeed() // 설정된 속도로 지속적으로 설정
+    {
+        if (setVelocity)
+        {
+            playerController.SetVelocityX(velocityToSet);
+        }
     }
 }

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Move System")]
     private float dashTimeLeft;
     private float lastDash = -100f;
 
@@ -22,7 +21,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
 
     public float MoveInputDirection { get; private set; }
-    public float moveSpeed = 10.0f;
+    [SerializeField]
+    public float moveSpeed { get; private set; }
     public float jumpForce = 15.0f;
     public float variableJumpHeightMultiplier = 0.5f;
     public float groundCheckRadius;
@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         canMove = true;
         canFlip = true;
+        moveSpeed = 10.0f;
     }
 
     private void Start()
@@ -197,6 +198,11 @@ public class PlayerController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
+
+    public void SetVelocityX(float velocity)
+    {
+        moveSpeed = velocity;
     }
 }
 
