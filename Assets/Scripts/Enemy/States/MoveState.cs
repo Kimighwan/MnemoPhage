@@ -7,6 +7,8 @@ public class MoveState : State
     protected bool isDetectWall;            // 벽을 감지했는가?
     protected bool isDetectLegde;           // 낭떨어지를 감지했는가?
 
+    protected bool isPlayerInMinDetectedRange;
+
     public MoveState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_MoveState stateData) : base(entity, stateMachine, animBoolName)
     {
         this.stateData = stateData;
@@ -19,6 +21,7 @@ public class MoveState : State
 
         isDetectWall = entity.CheckWall();
         isDetectLegde = entity.CheckLedge();
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 
     public override void Exit()
@@ -37,5 +40,6 @@ public class MoveState : State
 
         isDetectWall = entity.CheckWall();
         isDetectLegde = entity.CheckLedge();
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4527806856876874949}
   - component: {fileID: 2063872344037115697}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sword1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,9 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd876ce4b4f77ed4089e381d3def578d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 0}
-  baseAnimator: {fileID: 0}
-  weaponAnimator: {fileID: 0}
+  weaponData: {fileID: 0}
 --- !u!1 &2834317811193058154
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,9 +63,9 @@ GameObject:
   - component: {fileID: 5599650193860708792}
   - component: {fileID: 4624524137585216409}
   - component: {fileID: 4808427552984283200}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,7 +129,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -41089745
-  m_SortingLayer: 1
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3318188226485093758, guid: ae72133dacba6ec4eb33ecde48f50e56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -163,7 +161,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: 2c06c85744d2125459ee038b8458c2fb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -184,7 +182,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -251,7 +249,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf853f18c53a3b44a2d4d8b50630387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
   jumpForce: 15
   variableJumpHeightMultiplier: 0.5
   groundCheckRadius: 0.14
@@ -275,7 +272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae583e8f59cf9a4b85baf68db67db66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combatEnabled: 0
 --- !u!114 &4808427552984283200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,7 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2246792778786978230}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +328,7 @@ GameObject:
   - component: {fileID: 4627422536478585226}
   - component: {fileID: 3792274225020581403}
   - component: {fileID: 6591914598874431224}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +392,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -41089745
-  m_SortingLayer: 1
+  m_SortingLayer: 5
   m_SortingOrder: 2
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -442,7 +438,7 @@ GameObject:
   - component: {fileID: 2400189238698997376}
   - component: {fileID: 4834639209013491381}
   - component: {fileID: 2237710323066530952}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +502,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -41089745
-  m_SortingLayer: 1
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -550,7 +546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3017855552376615542}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}

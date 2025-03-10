@@ -23,9 +23,13 @@ public class E1_IdleState : IdleState
     {
         base.LogicalUpdate();
 
-        if (isIdelTimeOver)
+        if (isPlayerInMinDetectedRange)
         {
-            Debug.Log("moveState 변환");
+            Debug.Log("아이들 상태 -> 감지 상태");
+            stateMachine.ChangeState(enemy.playerDetectedState);
+        }
+        else if (isIdelTimeOver)
+        {
             stateMachine.ChangeState(enemy.moveState);
         }
     }
