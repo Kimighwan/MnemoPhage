@@ -17,6 +17,8 @@ public class Entity : MonoBehaviour
     private Transform wallCheck;                        // 벽 체크
     [SerializeField]
     private Transform ledgeCheck;                       // 낭떨어지 체크
+    [SerializeField]
+    private Transform playerCheck;
     private Vector2 entityVelocity;
 
 
@@ -75,20 +77,31 @@ public class Entity : MonoBehaviour
         aliveGO.transform.Rotate(0f, 180f, 0f);
     }
 
+    #region Player Detected
+    // 현재는 모든 몬스터가 어느 한 위치에서 일직선으로 탐지 한다 (2025_03_10)
+    // 몬스터 종류가 많아지면서 탐지 방법이 달라진다면 변경하기
+
+
     public virtual bool CheckPlayerInMinRange()
     {
-        return true;
+        return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right * -1, entityData.playerDetectedMinRange, entityData.whatIsPlayer);
     }
+
 
     public virtual bool CheckPlayerInMaxRange()
     {
-        return true;
+        return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right * -1, entityData.playerDetectedMaxRange, entityData.whatIsPlayer); ;
     }
+
+
+    #endregion
 
     public virtual void OnDrawGizmos()
     {
         Gizmos.DrawLine(wallCheck.position, wallCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.wallCheckDistance));
         //Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
         Gizmos.DrawWireSphere(ledgeCheck.position, 0.14f);
+
+        Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.playerDetectedMinRange));    
     }
 }

@@ -6,6 +6,7 @@ public class IdleState : State
 
     protected bool flipAfterIdle;       // Idle 상태 종료후 Flip을 실행할 것이냐?
     protected bool isIdelTimeOver;      // Idle 상태 지속 시간을 초과 했는가?
+    protected bool isPlayerInMinDetectedRange;
 
     protected float idleTIme;           // Idle 상태 지속 시간
 
@@ -21,6 +22,7 @@ public class IdleState : State
         entity.SetVelocity(0f);
         isIdelTimeOver = false;
         SetRandomIdleTime();
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 
     public override void Exit()
@@ -46,6 +48,8 @@ public class IdleState : State
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 
     public void SetFlipAfterIdle(bool flip)     // 상태 종료후 Flip 설정

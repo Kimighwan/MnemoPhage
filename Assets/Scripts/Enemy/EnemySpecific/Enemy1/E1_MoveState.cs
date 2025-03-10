@@ -23,9 +23,13 @@ public class E1_MoveState : MoveState
     {
         base.LogicalUpdate();
 
-        if (isDetectWall || !isDetectLegde) 
+        if (isPlayerInMinDetectedRange)
         {
-            
+            Debug.Log("무브 상태 -> 감지 상태");
+            stateMachine.ChangeState(enemy.playerDetectedState);
+        }
+        else if (isDetectWall || !isDetectLegde) 
+        {
             // 벽과 낭떨어지 감지하면 Idle 상태로 전환
             // 벽과 낭떨어지 이므로 방향 전환 해주기
             enemy.idleState.SetFlipAfterIdle(true);

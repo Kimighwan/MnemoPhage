@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: 0e6a13a11c6a3ba40bc99ba78b20b520
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3293557321479502476
+    second: Rad_0
+  - first:
+      213: -636166692104551720
+    second: Rad_1
+  - first:
+      213: -4181721182015698153
+    second: Rad_2
+  - first:
+      213: 7235326943889000287
+    second: Rad_3
+  - first:
+      213: 2279126187839354869
+    second: Rad_4
+  - first:
+      213: -9029200134589551428
+    second: Rad_5
+  - first:
+      213: 1194375927845087029
+    second: Rad_6
+  - first:
+      213: 3904953920119363047
+    second: Rad_7
+  - first:
+      213: 3392616309404999572
+    second: Rad_8
+  - first:
+      213: 842667828333020265
+    second: Rad_9
+  - first:
+      213: -1738059301643307465
+    second: Rad_10
+  - first:
+      213: 4328079555680977296
+    second: Rad_11
+  - first:
+      213: -3740549050924613716
+    second: Rad_12
+  - first:
+      213: -38156832233941740
+    second: Rad_13
+  - first:
+      213: -6231147410602003793
+    second: Rad_14
+  - first:
+      213: 1944377829889263625
+    second: Rad_15
+  - first:
+      213: 6635086365839335661
+    second: Rad_16
+  - first:
+      213: 3360359180245352294
+    second: Rad_17
+  - first:
+      213: 898683229532429108
+    second: Rad_18
+  - first:
+      213: -7819296283749779538
+    second: Rad_19
+  - first:
+      213: 5596337980147512950
+    second: Rad_20
+  - first:
+      213: -1553613555348014518
+    second: Rad_21
+  - first:
+      213: -1246046494101943649
+    second: Rad_22
+  - first:
+      213: 1025881076762401465
+    second: Rad_23
+  - first:
+      213: 1744582859535684939
+    second: Rad_24
+  - first:
+      213: -587860681723659812
+    second: Rad_25
+  - first:
+      213: -8202424675859998150
+    second: Rad_26
+  - first:
+      213: -3834204761416768852
+    second: Rad_27
+  - first:
+      213: -4290171210421537009
+    second: Rad_28
+  - first:
+      213: -1824396293571775891
+    second: Rad_29
+  - first:
+      213: -3704997212884114000
+    second: Rad_30
+  - first:
+      213: 1740616901653238410
+    second: Rad_31
+  - first:
+      213: -1335995440586414730
+    second: Rad_32
+  - first:
+      213: -4866419604925593638
+    second: Rad_33
+  - first:
+      213: 2925648921134669895
+    second: Rad_34
+  - first:
+      213: -4572423638819504937
+    second: Rad_35
+  - first:
+      213: -8688404706343683422
+    second: Rad_36
+  - first:
+      213: 7240094842579525442
+    second: Rad_37
+  - first:
+      213: 5783121044286793801
+    second: Rad_38
+  - first:
+      213: -2457411519244675684
+    second: Rad_39
+  - first:
+      213: -4337556270494558061
+    second: Rad_40
+  - first:
+      213: -2440329765964451654
+    second: Rad_41
+  - first:
+      213: -1285168577403901596
+    second: Rad_42
+  - first:
+      213: 4671681910320019180
+    second: Rad_43
+  - first:
+      213: -7187889869747623866
+    second: Rad_44
+  - first:
+      213: 4482338343671588231
+    second: Rad_45
+  - first:
+      213: 5583374347968652255
+    second: Rad_46
+  - first:
+      213: 3743161811888394368
+    second: Rad_47
+  - first:
+      213: 1881039203450191409
+    second: Rad_48
+  - first:
+      213: -7721260247420435331
+    second: Rad_49
+  - first:
+      213: -6436150328149598777
+    second: Rad_50
+  - first:
+      213: 6427250051560610647
+    second: Rad_51
+  - first:
+      213: -257080873680811640
+    second: Rad_52
+  - first:
+      213: 1172823432743076519
+    second: Rad_53
+  - first:
+      213: 329539948848821132
+    second: Rad_54
+  - first:
+      213: -2610630035765322915
+    second: Rad_55
+  - first:
+      213: 2724503694160643264
+    second: Rad_56
+  - first:
+      213: -7264198178851625475
+    second: Rad_57
+  - first:
+      213: 4448290100995310853
+    second: Rad_58
+  - first:
+      213: -5518498445457257124
+    second: Rad_59
+  - first:
+      213: -6448358964404783409
+    second: Rad_60
+  - first:
+      213: 8244760429728341289
+    second: Rad_61
+  - first:
+      213: -5038309411268517587
+    second: Rad_62
+  - first:
+      213: -1557621084288883715
+    second: Rad_63
+  - first:
+      213: 4777284709596875772
+    second: Rad_64
+  - first:
+      213: -3149830752496199277
+    second: Rad_65
+  - first:
+      213: -100328387303675951
+    second: Rad_66
+  - first:
+      213: -6947511632156008122
+    second: Rad_67
+  - first:
+      213: 1572964624422796073
+    second: Rad_68
+  - first:
+      213: 6373031939439449926
+    second: Rad_69
+  - first:
+      213: 927367127340353622
+    second: Rad_70
+  - first:
+      213: -8368060583618977415
+    second: Rad_71
+  - first:
+      213: -6522948210367244329
+    second: Rad_72
+  - first:
+      213: -5820936063802720737
+    second: Rad_73
+  - first:
+      213: -8948795079469041803
+    second: Rad_74
+  - first:
+      213: 9202728295009787875
+    second: Rad_75
+  - first:
+      213: -6543738876365712813
+    second: Rad_76
+  - first:
+      213: -4592744327109145893
+    second: Rad_77
+  - first:
+      213: -3173583652300846855
+    second: Rad_78
+  - first:
+      213: -9205452615739119332
+    second: Rad_79
+  - first:
+      213: 4634616189754798961
+    second: Rad_80
+  - first:
+      213: 6647975576735755831
+    second: Rad_81
+  - first:
+      213: 8433258335517142324
+    second: Rad_82
+  - first:
+      213: -2327540263722705476
+    second: Rad_83
+  - first:
+      213: 7048774278369506053
+    second: Rad_84
+  - first:
+      213: 5963177886695489603
+    second: Rad_85
+  - first:
+      213: 9068115153511275088
+    second: Rad_86
+  - first:
+      213: -7778239697310617828
+    second: Rad_87
+  - first:
+      213: -8972257880981092262
+    second: Rad_88
+  - first:
+      213: 132956461792543196
+    second: Rad_89
+  - first:
+      213: 2086461920089656999
+    second: Rad_90
+  - first:
+      213: -1924266431495365609
+    second: Rad_91
+  - first:
+      213: 8791337747033503788
+    second: Rad_92
+  - first:
+      213: -2398540811790403436
+    second: Rad_93
+  - first:
+      213: 557338075099667275
+    second: Rad_94
+  - first:
+      213: -8313040878147863010
+    second: Rad_95
+  - first:
+      213: -3102423609755544471
+    second: Rad_96
+  - first:
+      213: -5877498523528353349
+    second: Rad_97
+  - first:
+      213: -3223000897800169694
+    second: Rad_98
+  - first:
+      213: 3479833947608794754
+    second: Rad_99
+  - first:
+      213: 8660655207431039274
+    second: Rad_100
+  - first:
+      213: -1017709741209420794
+    second: Rad_101
+  - first:
+      213: -7031397036458044346
+    second: Rad_102
+  - first:
+      213: -8842315566630041950
+    second: Rad_103
+  - first:
+      213: 2708724004269305541
+    second: Rad_104
+  - first:
+      213: -6781163537512324303
+    second: Rad_105
+  - first:
+      213: -7201458779867018909
+    second: Rad_106
+  - first:
+      213: 1195300349684462767
+    second: Rad_107
+  - first:
+      213: -8941844477567298433
+    second: Rad_108
+  - first:
+      213: -9039463477079015752
+    second: Rad_109
+  - first:
+      213: -8306654283837977022
+    second: Rad_110
+  - first:
+      213: 2093934297177419582
+    second: Rad_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rad_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 651
+        width: 42
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49577567, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475c3dde01fea42d0800000000000000
+      internalID: -3293557321479502476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 651
+        width: 42
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d24c2b93c1eb27f0800000000000000
+      internalID: -636166692104551720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 651
+        width: 43
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b4a3c9dba87f5c0800000000000000
+      internalID: -4181721182015698153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 651
+        width: 43
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f570154658b096460800000000000000
+      internalID: 7235326943889000287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 651
+        width: 47
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f77478413511af10800000000000000
+      internalID: 2279126187839354869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 651
+        width: 49
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc61ebf056d1b280800000000000000
+      internalID: -9029200134589551428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_6
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 652
+        width: 47
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537eb7b0496439010800000000000000
+      internalID: 1194375927845087029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_7
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 652
+        width: 45
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5dbf8a6ee213630800000000000000
+      internalID: 3904953920119363047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 558
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f184dfe8ef41f20800000000000000
+      internalID: 3392616309404999572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 558
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964807bdce1c1bb00800000000000000
+      internalID: 842667828333020265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 558
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736bcf6164c21e7e0800000000000000
+      internalID: -1738059301643307465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_11
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 558
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091cefbbc6d601c30800000000000000
+      internalID: 4328079555680977296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 558
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafb6bad476e61cc0800000000000000
+      internalID: -3740549050924613716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_13
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 558
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41511f03090787ff0800000000000000
+      internalID: -38156832233941740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 558
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2f8ffa1748689a0800000000000000
+      internalID: -6231147410602003793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_15
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 558
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908c1b3a551dbfa10800000000000000
+      internalID: 1944377829889263625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_16
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 465
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de024e145ef841c50800000000000000
+      internalID: 6635086365839335661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 465
+        width: 110
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f3f38ded462ae20800000000000000
+      internalID: 3360359180245352294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_18
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 546
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b91e5c2a3c87c00800000000000000
+      internalID: 898683229532429108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_19
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 534
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7ff8555774c7390800000000000000
+      internalID: -7819296283749779538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 465
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67638b50ebf2aad40800000000000000
+      internalID: 5596337980147512950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_21
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 465
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4aff3be3b4707ae0800000000000000
+      internalID: -1553613555348014518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_22
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 465
+        width: 135
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ace61c05725bee0800000000000000
+      internalID: -1246046494101943649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_23
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 530
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bad73a6769ac3e00800000000000000
+      internalID: 1025881076762401465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_24
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 531
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b451cd71ed0063810800000000000000
+      internalID: 1744582859535684939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_25
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 532
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9317813df77d7f0800000000000000
+      internalID: -587860681723659812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_26
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 534
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a577237322b2e80800000000000000
+      internalID: -8202424675859998150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 465
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca264af751b2acac0800000000000000
+      internalID: -3834204761416768852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 465
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f077731b3004674c0800000000000000
+      internalID: -4290171210421537009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_29
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 521
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d627d10bc317ea6e0800000000000000
+      internalID: -1824396293571775891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_30
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 521
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5ea303aa4359cc0800000000000000
+      internalID: -3704997212884114000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_31
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 494
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82151199d9e72810800000000000000
+      internalID: 1740616901653238410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_32
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 472
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6752e46a937957de0800000000000000
+      internalID: -1335995440586414730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_33
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 465
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7c9681721077cb0800000000000000
+      internalID: -4866419604925593638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_34
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 513
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740acb9613ef99820800000000000000
+      internalID: 2925648921134669895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_35
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 492
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc709d1dec7b80c0800000000000000
+      internalID: -4572423638819504937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_36
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 495
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa7d85e3f59c6780800000000000000
+      internalID: -8688404706343683422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_37
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 481
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f171056ebf97460800000000000000
+      internalID: 7240094842579525442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_38
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 478
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948ecc113f5c14050800000000000000
+      internalID: 5783121044286793801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 440
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d7704e3585edd0800000000000000
+      internalID: -2457411519244675684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 447
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39857e7ad87edc3c0800000000000000
+      internalID: -4337556270494558061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_41
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 420
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab070ecd105322ed0800000000000000
+      internalID: -2440329765964451654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 432
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a85becf92a2ee0800000000000000
+      internalID: -1285168577403901596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_43
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 422
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce63e3022f525d040800000000000000
+      internalID: 4671681910320019180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 403
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648601d1f3c7f3c90800000000000000
+      internalID: -7187889869747623866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 418
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78568a1a9f6743e30800000000000000
+      internalID: 4482338343671588231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 398
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd323b233612c7d40800000000000000
+      internalID: 5583374347968652255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 400
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805a66f5d162f330800000000000000
+      internalID: 3743161811888394368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_48
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 410
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e7b3a703bca1a10800000000000000
+      internalID: 1881039203450191409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 372
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d740926c6b298d490800000000000000
+      internalID: -7721260247420435331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_50
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 372
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd11a170633ea6a0800000000000000
+      internalID: -6436150328149598777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_51
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 372
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b91ed6edd223950800000000000000
+      internalID: 6427250051560610647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_52
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 372
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88945b5be4aae6cf0800000000000000
+      internalID: -257080873680811640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_53
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 372
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2c7ecb2b4b64010800000000000000
+      internalID: 1172823432743076519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_54
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 372
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c833f6666d2c29400800000000000000
+      internalID: 329539948848821132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_55
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 372
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b1e3e60dd25cbd0800000000000000
+      internalID: -2610630035765322915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_56
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 372
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c44fafbca16fc520800000000000000
+      internalID: 2724503694160643264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 385
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df562836e32603b90800000000000000
+      internalID: -7264198178851625475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_58
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 386
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50546bf57408bbd30800000000000000
+      internalID: 4448290100995310853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_59
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 384
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d89f0f6ea5a63b0800000000000000
+      internalID: -5518498445457257124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_60
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 392
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6727ecfa3d286a0800000000000000
+      internalID: -6448358964404783409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_61
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 279
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d9720ade54b6270800000000000000
+      internalID: 8244760429728341289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_62
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 284
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2125d8d844541ab0800000000000000
+      internalID: -5038309411268517587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_63
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 298
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df36d4060e7326ae0800000000000000
+      internalID: -1557621084288883715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_64
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 297
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4d6ad1235c4240800000000000000
+      internalID: 4777284709596875772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_65
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 341
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399dcde7e9d8944d0800000000000000
+      internalID: -3149830752496199277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_66
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 306
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d760e10ddf8b9ef0800000000000000
+      internalID: -100328387303675951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 279
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6416274eafa759f90800000000000000
+      internalID: -6947511632156008122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_68
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 279
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf9f2fdfa44d510800000000000000
+      internalID: 1572964624422796073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_69
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 313
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d18c78ce817850800000000000000
+      internalID: 6373031939439449926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_70
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 306
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6580f792d7baedc00800000000000000
+      internalID: 927367127340353622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_71
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 319
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971617e2c3daedb80800000000000000
+      internalID: -8368060583618977415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_72
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 271
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d75ac8a925d975a0800000000000000
+      internalID: -6522948210367244329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_73
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 307
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e37c89d71e73fa0800000000000000
+      internalID: -5820936063802720737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_74
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 292
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577fb78b94e7fc380800000000000000
+      internalID: -8948795079469041803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_75
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 304
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9e7c40a8a6bf70800000000000000
+      internalID: 9202728295009787875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 186
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352de438928ff25a0800000000000000
+      internalID: -6543738876365712813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_77
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 186
+        width: 53
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda087e2e5b4340c0800000000000000
+      internalID: -4592744327109145893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_78
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 270
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f80f9b8b7a25f3d0800000000000000
+      internalID: -3173583652300846855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_79
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 268
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19ed2a5e99af3080800000000000000
+      internalID: -9205452615739119332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_80
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 271
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173fb9c8ed6715040800000000000000
+      internalID: 4634616189754798961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_81
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 263
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eaec6809a524c50800000000000000
+      internalID: 6647975576735755831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_82
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 254
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43de99b56c3f80570800000000000000
+      internalID: 8433258335517142324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_83
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 263
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd9364467ae2bfd0800000000000000
+      internalID: -2327540263722705476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_84
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 252
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ff143cd642d160800000000000000
+      internalID: 7048774278369506053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_85
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 186
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34003f491b671c250800000000000000
+      internalID: 5963177886695489603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_86
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 186
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a506befaa68dd70800000000000000
+      internalID: 9068115153511275088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_87
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 186
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f65f7c4342e0490800000000000000
+      internalID: -7778239697310617828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_88
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 186
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a584cea8ef22c7380800000000000000
+      internalID: -8972257880981092262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_89
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 215
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1ccb3923b58d100800000000000000
+      internalID: 132956461792543196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_90
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 186
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aec250df0a94fc10800000000000000
+      internalID: 2086461920089656999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_91
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 186
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c928130e1ab45e0800000000000000
+      internalID: -1924266431495365609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_92
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c283a683a1b110a70800000000000000
+      internalID: 8791337747033503788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 131
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498b4f5f6dba6bed0800000000000000
+      internalID: -2398540811790403436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_94
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 132
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b9d12c6001cb700800000000000000
+      internalID: 557338075099667275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_95
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 132
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef1be9d5522ac80800000000000000
+      internalID: -8313040878147863010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_96
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 127
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9645cbd0a2af1f4d0800000000000000
+      internalID: -3102423609755544471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_97
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 114
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a531bb3eee6ea0800000000000000
+      internalID: -5877498523528353349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_98
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 97
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2271bd772c99543d0800000000000000
+      internalID: -3223000897800169694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_99
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 93
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2864194d98ada4030800000000000000
+      internalID: 3479833947608794754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_100
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2960196604d03870800000000000000
+      internalID: 8660655207431039274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_101
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cf1c6e16e50e1f0800000000000000
+      internalID: -1017709741209420794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6441f2736a57b6e90800000000000000
+      internalID: -7031397036458044346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_103
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 36
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a60c1b37d8c94580800000000000000
+      internalID: -8842315566630041950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_104
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 30
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceab056122579520800000000000000
+      internalID: 2708724004269305541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_105
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 23
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1332fb6d0b774e1a0800000000000000
+      internalID: -6781163537512324303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_106
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 39
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369886905674f0c90800000000000000
+      internalID: -7201458779867018909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_107
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 38
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4b7d6c55f869010800000000000000
+      internalID: 1195300349684462767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_108
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 38
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7410d5d2df28e380800000000000000
+      internalID: -8941844477567298433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_109
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be76985cdf5d8280800000000000000
+      internalID: -9039463477079015752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_110
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 9
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e4cdb70f5d8bc80800000000000000
+      internalID: -8306654283837977022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rad_111
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f644e26262f0d10800000000000000
+      internalID: 2093934297177419582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b56e4829692fd8d41bc7d42d93f88ecd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rad_0: -3293557321479502476
+      Rad_1: -636166692104551720
+      Rad_10: -1738059301643307465
+      Rad_100: 8660655207431039274
+      Rad_101: -1017709741209420794
+      Rad_102: -7031397036458044346
+      Rad_103: -8842315566630041950
+      Rad_104: 2708724004269305541
+      Rad_105: -6781163537512324303
+      Rad_106: -7201458779867018909
+      Rad_107: 1195300349684462767
+      Rad_108: -8941844477567298433
+      Rad_109: -9039463477079015752
+      Rad_11: 4328079555680977296
+      Rad_110: -8306654283837977022
+      Rad_111: 2093934297177419582
+      Rad_12: -3740549050924613716
+      Rad_13: -38156832233941740
+      Rad_14: -6231147410602003793
+      Rad_15: 1944377829889263625
+      Rad_16: 6635086365839335661
+      Rad_17: 3360359180245352294
+      Rad_18: 898683229532429108
+      Rad_19: -7819296283749779538
+      Rad_2: -4181721182015698153
+      Rad_20: 5596337980147512950
+      Rad_21: -1553613555348014518
+      Rad_22: -1246046494101943649
+      Rad_23: 1025881076762401465
+      Rad_24: 1744582859535684939
+      Rad_25: -587860681723659812
+      Rad_26: -8202424675859998150
+      Rad_27: -3834204761416768852
+      Rad_28: -4290171210421537009
+      Rad_29: -1824396293571775891
+      Rad_3: 7235326943889000287
+      Rad_30: -3704997212884114000
+      Rad_31: 1740616901653238410
+      Rad_32: -1335995440586414730
+      Rad_33: -4866419604925593638
+      Rad_34: 2925648921134669895
+      Rad_35: -4572423638819504937
+      Rad_36: -8688404706343683422
+      Rad_37: 7240094842579525442
+      Rad_38: 5783121044286793801
+      Rad_39: -2457411519244675684
+      Rad_4: 2279126187839354869
+      Rad_40: -4337556270494558061
+      Rad_41: -2440329765964451654
+      Rad_42: -1285168577403901596
+      Rad_43: 4671681910320019180
+      Rad_44: -7187889869747623866
+      Rad_45: 4482338343671588231
+      Rad_46: 5583374347968652255
+      Rad_47: 3743161811888394368
+      Rad_48: 1881039203450191409
+      Rad_49: -7721260247420435331
+      Rad_5: -9029200134589551428
+      Rad_50: -6436150328149598777
+      Rad_51: 6427250051560610647
+      Rad_52: -257080873680811640
+      Rad_53: 1172823432743076519
+      Rad_54: 329539948848821132
+      Rad_55: -2610630035765322915
+      Rad_56: 2724503694160643264
+      Rad_57: -7264198178851625475
+      Rad_58: 4448290100995310853
+      Rad_59: -5518498445457257124
+      Rad_6: 1194375927845087029
+      Rad_60: -6448358964404783409
+      Rad_61: 8244760429728341289
+      Rad_62: -5038309411268517587
+      Rad_63: -1557621084288883715
+      Rad_64: 4777284709596875772
+      Rad_65: -3149830752496199277
+      Rad_66: -100328387303675951
+      Rad_67: -6947511632156008122
+      Rad_68: 1572964624422796073
+      Rad_69: 6373031939439449926
+      Rad_7: 3904953920119363047
+      Rad_70: 927367127340353622
+      Rad_71: -8368060583618977415
+      Rad_72: -6522948210367244329
+      Rad_73: -5820936063802720737
+      Rad_74: -8948795079469041803
+      Rad_75: 9202728295009787875
+      Rad_76: -6543738876365712813
+      Rad_77: -4592744327109145893
+      Rad_78: -3173583652300846855
+      Rad_79: -9205452615739119332
+      Rad_8: 3392616309404999572
+      Rad_80: 4634616189754798961
+      Rad_81: 6647975576735755831
+      Rad_82: 8433258335517142324
+      Rad_83: -2327540263722705476
+      Rad_84: 7048774278369506053
+      Rad_85: 5963177886695489603
+      Rad_86: 9068115153511275088
+      Rad_87: -7778239697310617828
+      Rad_88: -8972257880981092262
+      Rad_89: 132956461792543196
+      Rad_9: 842667828333020265
+      Rad_90: 2086461920089656999
+      Rad_91: -1924266431495365609
+      Rad_92: 8791337747033503788
+      Rad_93: -2398540811790403436
+      Rad_94: 557338075099667275
+      Rad_95: -8313040878147863010
+      Rad_96: -3102423609755544471
+      Rad_97: -5877498523528353349
+      Rad_98: -3223000897800169694
+      Rad_99: 3479833947608794754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

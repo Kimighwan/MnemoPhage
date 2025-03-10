@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "D_PlayerDetected", menuName = "Scriptable Objects/D_PlayerDetected")]
+[CreateAssetMenu(fileName = "newPlayerDetectedStateData", menuName = "Data/State Data/Player Detected State")]
 public class D_PlayerDetected : ScriptableObject
 {
     
