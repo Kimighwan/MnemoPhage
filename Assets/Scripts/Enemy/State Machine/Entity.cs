@@ -75,6 +75,16 @@ public class Entity : MonoBehaviour
         aliveGO.transform.Rotate(0f, 180f, 0f);
     }
 
+    public virtual bool CheckPlayerInMinRange()
+    {
+        return true;
+    }
+
+    public virtual bool CheckPlayerInMaxRange()
+    {
+        return true;
+    }
+
     public virtual void OnDrawGizmos()
     {
         Gizmos.DrawLine(wallCheck.position, wallCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.wallCheckDistance));
