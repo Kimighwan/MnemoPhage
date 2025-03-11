@@ -23,11 +23,21 @@ public class E1_PlayerDetectedState : PlayerDetectedState
     {
         base.LogicalUpdate();
 
-        if (!isPlayerInMaxDetectedRange)    // 감지 범위 밖으로 나감
+        //if (!isPlayerInMaxDetectedRange)    // 감지 범위 밖으로 나감
+        //{
+        //    enemy.idleState.SetFlipAfterIdle(false);
+        //    stateMachine.ChangeState(enemy.idleState);
+        //}
+
+        if(doLongRangeAction)
         {
-            Debug.Log("감지 상태 -> 아이들 상태");
-            enemy.idleState.SetFlipAfterIdle(false);
-            stateMachine.ChangeState(enemy.idleState);
+            Debug.Log("계속 감지되어 돌진 상태 전환");
+            stateMachine.ChangeState(enemy.chargeState);
+        }
+        else if (!isPlayerInMaxDetectedRange)
+        {
+            Debug.Log("감지 실패하여 도리도리 상태 들감");
+            stateMachine.ChangeState(enemy.lookForPlayerState);
         }
     }
 

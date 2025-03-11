@@ -6,20 +6,27 @@ public class PlayerDetectedState : State
 
     protected bool isPlayerInMinDetectedRange;
     protected bool isPlayerInMaxDetectedRange;
+    protected bool doLongRangeAction;                 // 원거리 공격 실행할 것인가?
 
     public PlayerDetectedState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_PlayerDetected stateData) : base(entity, stateMachine, animBoolName)
     {
         this.stateData = stateData;
     }
 
+    public override void DoCheck()
+    {
+        base.DoCheck();
+
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
+        isPlayerInMaxDetectedRange = entity.CheckPlayerInMaxRange();
+    }
+
     public override void Enter()
     {
         base.Enter();
 
+        doLongRangeAction = false;
         entity.SetVelocity(0f);
-
-        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
-        isPlayerInMaxDetectedRange = entity.CheckPlayerInMaxRange();
     }
 
     public override void Exit()
@@ -30,13 +37,15 @@ public class PlayerDetectedState : State
     public override void LogicalUpdate()
     {
         base.LogicalUpdate();
+
+        if(Time.time >= startTime + stateData.longRangeActionTime)
+        {
+            doLongRangeAction = true;
+        }
     }
 
     public override void PhysicsUpdate()
     {
-        base.PhysicsUpdate();
-
-        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
-        isPlayerInMaxDetectedRange = entity.CheckPlayerInMaxRange();
+        base.PhysicsUpdate() ;
     }
 }

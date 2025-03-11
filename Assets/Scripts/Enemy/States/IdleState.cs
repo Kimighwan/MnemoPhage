@@ -15,6 +15,13 @@ public class IdleState : State
         this.stateData = stateData;
     }
 
+    public override void DoCheck()
+    {
+        base.DoCheck();
+
+        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
+    }
+
     public override void Enter()
     {
         base.Enter();
@@ -22,7 +29,6 @@ public class IdleState : State
         entity.SetVelocity(0f);
         isIdelTimeOver = false;
         SetRandomIdleTime();
-        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 
     public override void Exit()
@@ -48,8 +54,6 @@ public class IdleState : State
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-
-        isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
     }
 
     public void SetFlipAfterIdle(bool flip)     // 상태 종료후 Flip 설정
