@@ -19,12 +19,15 @@ public class State
 
     public virtual void Enter() // 상태 진입 시
     {
+        Debug.Log($"{stateMachine.currentState} 상태 진입");
         startTime = Time.time;
         entity.anim.SetBool(animBoolName, true);
+        DoCheck();
     }
 
     public virtual void Exit() // 상태 종료 시
     {
+        Debug.Log($"{stateMachine.currentState} 상태 종료");
         entity.anim.SetBool(animBoolName, false);
     }
 
@@ -34,6 +37,11 @@ public class State
     }
 
     public virtual void PhysicsUpdate()  // FixedUpdate에서 사용
+    {
+        DoCheck();
+    }
+
+    public virtual void DoCheck()       // 상태 체크 함수들을 담는 함수
     {
 
     }
