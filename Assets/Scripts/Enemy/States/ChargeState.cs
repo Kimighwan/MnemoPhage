@@ -8,6 +8,7 @@ public class ChargeState : State
     protected bool isDetectingWall;                 // 현재 벽이 감지되었는가?
     protected bool isDetectingLedge;                // 현재 땅이 감지되었는가?
     protected bool isChargeTimeOver;                // 돌진 시간을 초과하였는가?
+    protected bool doMeleeAttackRange;              // 근거리 공격 실행할 것인가?
 
     public ChargeState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_ChargeState stateData) : base(entity, stateMachine, animBoolName)
     {
@@ -21,6 +22,8 @@ public class ChargeState : State
         isPlayerInMinDetectedRange = entity.CheckPlayerInMinRange();
         isDetectingWall = entity.CheckWall();
         isDetectingLedge = entity.CheckLedge();
+
+        doMeleeAttackRange = entity.CheckPlayerInMeleeAttackRange();
     }
 
     public override void Enter()

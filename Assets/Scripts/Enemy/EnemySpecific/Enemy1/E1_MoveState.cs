@@ -25,7 +25,6 @@ public class E1_MoveState : MoveState
 
         if (isPlayerInMinDetectedRange)
         {
-            Debug.Log("무브 상태 -> 감지 상태");
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
         else if (isDetectWall || !isDetectLegde) 

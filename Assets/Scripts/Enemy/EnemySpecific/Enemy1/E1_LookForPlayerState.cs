@@ -30,12 +30,10 @@ public class E1_LookForPlayerState : LookForPlayerState
 
         if (isPlayerInDetectedMinRange)
         {
-            Debug.Log("플레이어 다시 찾아서 탐지 상태로 전환");
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
         else if (isAllTurnTimeDone)
         {
-            Debug.Log("플레이어를 찾지 못해 이동 상태 전환");
             stateMachine.ChangeState(enemy.moveState);
         }
     }
