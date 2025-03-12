@@ -9,6 +9,8 @@ public class D_Entity : ScriptableObject
     public float playerDetectedMinRange = 3f;       // 플레이어 감지 최소 거리
     public float playerDetectedMaxRange = 4f;       // 플래이어 감지 최대 거리
 
+    public float meleeAttackRangeDistance = 1f;     // 근접 공격 감지 범위
+
     public LayerMask layerMask;                     // Ground 레이어 마스크
     public LayerMask whatIsPlayer;                  // Player 레이어 마스크
 }

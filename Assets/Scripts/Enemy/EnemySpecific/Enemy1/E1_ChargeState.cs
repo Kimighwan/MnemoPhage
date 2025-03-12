@@ -24,13 +24,15 @@ public class E1_ChargeState : ChargeState
 
         if(!isDetectingLedge || isDetectingWall)
         {
-            Debug.Log("돌진 중 이동 방해 받아 Idle 상태 전환");
             stateMachine.ChangeState(enemy.lookForPlayerState);
         }
         else if (isChargeTimeOver)
         {
-            Debug.Log("돌진 시간 오버 감지 상태로 전환");
-            stateMachine.ChangeState(enemy.playerDetectedState);
+            if (isPlayerInMinDetectedRange)
+            {
+                stateMachine.ChangeState(enemy.playerDetectedState);
+            }
+            // TODO : Transition to attack state
         }
     }
 

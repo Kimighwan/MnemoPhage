@@ -25,7 +25,6 @@ public class E1_IdleState : IdleState
 
         if (isPlayerInMinDetectedRange)
         {
-            Debug.Log("아이들 상태 -> 감지 상태");
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
         else if (isIdelTimeOver)
